@@ -1,1 +1,31 @@
+.body
+{
+       display: flex;
+       flex-direction: column;
+       background-color: blueviolet;
+       color: aquamarine;
+       border: 20px;
+}
+.main
+{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+       width: auto;
+}
 
+
+
+.main, article
+{
+    flex-direction: row;
+    flex: 2;
+    overflow-y: auto;
+}
+.main, aside
+{
+    flex-direction: row;
+    flex: 1;
+    overflow-y: auto;
+}
+ 
